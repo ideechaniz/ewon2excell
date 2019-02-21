@@ -10,7 +10,7 @@ Help="Ewon2Excell.vbs 0.1 Adaptador de ficheros EWON a Excell"+vbcrlf+vbcrlf
 Help=Help+ "¡Necesito un fichero CSV o de texto como parametro!"+vbcrlf+vbcrlf
 Help=Help+ "(c) Iker De Echaniz para Grupo Elektra"+vbcrlf 
 
-WScript.Interactive = False
+WScript.Interactive = True
 
 If Wscript.Arguments.Count = 0 Then
   Wscript.Echo Help
